@@ -78,32 +78,6 @@ npm run build
 npm start
 ```
 
-## 📦 Deployment
-
-### Netlify (recommended)
-
-1. Push to GitHub
-2. Connect repo in Netlify dashboard
-3. Set build command: `npm run build`
-4. Set publish directory: `.next`
-5. Add environment variable `WEATHER_AI_API_KEY` in Netlify → Site settings → Environment variables
-6. Deploy!
-
-### Vercel
-
-```bash
-npx vercel
-```
-
-Add `WEATHER_AI_API_KEY` in Vercel project settings → Environment Variables.
-
-### Render
-
-1. New Web Service → Connect repo
-2. Build command: `npm install && npm run build`
-3. Start command: `npm start`
-4. Add env var `WEATHER_AI_API_KEY`
-
 ## 🗂 Project Structure
 
 ```
